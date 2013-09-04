@@ -34,8 +34,9 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-group :adapter do
-  gem 'activerecord'
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
 end
 
 group :test do
