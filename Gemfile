@@ -34,6 +34,10 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+group :adapter do
+  gem 'activerecord'
+end
+
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
